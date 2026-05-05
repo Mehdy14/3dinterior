@@ -3,13 +3,13 @@ import PrivacySummaryCard from './PrivacySummaryCard.astro';
 import Icon from '../shared/Icon.astro';
 
 const sections = [
-  { id: 'introduction', title: 'Introduction', icon: 'info-circle' },
-  { id: 'data-collection', title: 'Data Collection', icon: 'database' },
-  { id: 'how-we-use', title: 'How We Use Data', icon: 'settings' },
-  { id: 'third-parties', title: 'Third-Party Sharing', icon: 'share' },
-  { id: 'your-rights', title: 'Your Rights', icon: 'badge' },
-  { id: 'cookies', title: 'Cookie Policy', icon: 'cookie' },
-  { id: 'contact', title: 'Contact Us', icon: 'mail' }
+  { id: 'introduction', title: 'Mentions légales', icon: 'info-circle' },
+  { id: 'data-collection', title: 'Politique de confidentialité (RGPD)', icon: 'database' },
+  { id: 'how-we-use', title: 'Cookies', icon: 'cookie' }//,
+  // { id: 'third-parties', title: 'Third-Party Sharing', icon: 'share' },
+  // { id: 'your-rights', title: 'Your Rights', icon: 'badge' },
+  // { id: 'cookies', title: 'Cookie Policy', icon: 'cookie' },
+  // { id: 'contact', title: 'Contact Us', icon: 'mail' }
 ];
 ---
 
@@ -18,7 +18,7 @@ const sections = [
     <div>
       <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-4 flex items-center gap-2">
         <Icon name="list" size={16} />
-        Table of Contents
+        Table des matières
       </h3>
       <nav class="space-y-1">
         {sections.map((section, index) => (

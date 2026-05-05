@@ -9,52 +9,56 @@ import PrivacyContactCard from './PrivacyContactCard.astro';
   <PrivacyHeader />
   
   <div class="legal-content dark:text-slate-300">
-    <PrivacySection id="introduction" title="1. Introduction">
-      <p>
-        Welcome to the Legal Center Privacy Policy. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website (regardless of where you visit it from) and tell you about your privacy rights and how the law protects you.
+    <PrivacySection id="introduction" title="1. Mentions légales">
+          <p>
+        Nom commercial : L'Atelier d'Artémiss<br />
+        Statut : Entrepreneur individuel<br />
+        Adresse : Rue Gustave Gaillard , 76250 Déville lès Rouen<br />
+        Email : latelierdartemiss@free.fr<br />
+        Numéro SIRET : 10361288300019
       </p>
+
+    </PrivacySection>
+
+    <PrivacySection id="data-collection" title="2. Politique de confidentialité">
       <p>
-        This website is not intended for children and we do not knowingly collect data relating to children. It is important that you read this privacy policy together with any other privacy notice or fair processing notice we may provide on specific occasions.
+    Données collectées :<br />
+    Le site Atelier Artémiss ne collecte des données personnelles que dans le cadre des échanges par email (nom, prénom, adresse email, contenu du message).
+      </p>
+
+      <p>
+        Finalité :<br />
+        Ces données sont utilisées uniquement pour répondre aux demandes et aux échanges commerciaux.
+      </p>
+
+      <p>
+        Durée de conservation :<br />
+        Les données sont conservées pendant une durée maximale de 3 ans après le dernier contact.
+      </p>
+
+      <p>
+        Partage des données :<br />
+        Les données ne sont en aucun cas vendues ni transmises à des tiers.
+      </p>
+
+      <p>
+        Droits de l’utilisateur :<br />
+        Conformément à la réglementation en vigueur, vous pouvez demander l’accès, la modification ou la suppression de vos données en envoyant un email à : latelierdartemiss@free.fr
+      </p>
+
+      <p>
+        Sécurité :<br />
+        Les données sont traitées de manière sécurisée et confidentielle.
       </p>
     </PrivacySection>
 
-    <PrivacySection id="data-collection" title="2. Data We Collect">
-      <p>
-        Personal data, or personal information, means any information about an individual from which that person can be identified. We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:
-      </p>
-      <ul>
-        <li><strong>Identity Data:</strong> first name, maiden name, last name, username or similar identifier.</li>
-        <li><strong>Contact Data:</strong> billing address, delivery address, email address and telephone numbers.</li>
-        <li><strong>Financial Data:</strong> bank account and payment card details.</li>
-        <li><strong>Technical Data:</strong> internet protocol (IP) address, your login data, browser type and version, time zone setting and location.</li>
-        <li><strong>Usage Data:</strong> information about how you use our website, products and services.</li>
-      </ul>
+    <PrivacySection id="how-we-use" title="3. Cookies">
+        <p>
+            Le site Atelier Artémiss n’utilise pas de cookies ni de traceurs.
+        </p>
     </PrivacySection>
 
-    <PrivacySection id="how-we-use" title="3. How We Use Your Data">
-      <p>
-        We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:
-      </p>
-      <ul class="list-none space-y-4">
-        <UsageCard
-          icon="contract"
-          title="Performance of Contract"
-          description="Where we need to perform the contract we are about to enter into or have entered into with you."
-        />
-        <UsageCard
-          icon="scale"
-          title="Legitimate Interests"
-          description="Where it is necessary for our legitimate interests and your interests and fundamental rights do not override those interests."
-        />
-        <UsageCard
-          icon="gavel"
-          title="Legal Obligation"
-          description="Where we need to comply with a legal or regulatory obligation."
-        />
-      </ul>
-    </PrivacySection>
-
-    <PrivacySection id="third-parties" title="4. Third-Party Sharing">
+    <!-- <PrivacySection id="third-parties" title="4. Third-Party Sharing">
       <p>
         We may share your personal data with internal and external third parties such as service providers, professional advisers, and regulators. We require all third parties to respect the security of your personal data and to treat it in accordance with the law.
       </p>
@@ -73,8 +77,7 @@ import PrivacyContactCard from './PrivacyContactCard.astro';
         <li>Request transfer of your personal data.</li>
         <li>Right to withdraw consent.</li>
       </ul>
-    </PrivacySection>
+    </PrivacySection> -->
 
-    <PrivacyContactCard />
   </div>
 </article>

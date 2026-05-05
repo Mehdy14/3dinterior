@@ -2,7 +2,7 @@
 import Button from '../shared/Button.astro';
 import Icon from '../shared/Icon.astro';
 import { Image } from 'astro:assets';
-import heroImage from '../../assets/img/home-page-img-01.jpg';
+import heroImage from '../../assets/img/imageFondPrincipale.png';
 ---
 
 <section class="relative h-screen w-full flex items-center justify-center overflow-hidden pt-20">
@@ -11,7 +11,7 @@ import heroImage from '../../assets/img/home-page-img-01.jpg';
     <div class="absolute inset-0 bg-black/40 z-10" />
     <Image
       src={heroImage}
-      alt="Minimalist concrete skyscraper reaching towards a clear sky"
+      alt="atelier d'artémiss"
       class="w-full h-full object-cover"
       loading="eager"
       fetchpriority="high"
@@ -25,14 +25,13 @@ import heroImage from '../../assets/img/home-page-img-01.jpg';
   <!-- Content -->
   <div class="relative z-20 text-center px-6">
     <h1 class="text-white text-6xl md:text-9xl font-black leading-none tracking-tight mb-6 uppercase">
-      Form &<br />Function
+      L'atelier <br />d'Artémiss
     </h1>
     <p class="text-white/90 text-lg md:text-xl font-light max-w-2xl mx-auto mb-10 tracking-wide uppercase">
-      Defining modern spaces through precision and soul
+      Création des bijoux artisanaux
     </p>
     <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
-      <Button href="/projects" variant="primary" size="lg">View Portfolio</Button>
-      <Button href="/about" variant="secondary" size="lg">Our Story</Button>
+      <Button href="/projects" variant="secondary" size="lg">Portfolio</Button>
     </div>
   </div>
 

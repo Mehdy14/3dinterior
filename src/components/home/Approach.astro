@@ -3,7 +3,7 @@ import Container from '../shared/Container.astro';
 import Button from '../shared/Button.astro';
 import Icon from '../shared/Icon.astro';
 import { Image } from 'astro:assets';
-import approachImage from '../../assets/img/home-page-img-02.jpg';
+import approachImage from '../../assets/img/surMesureImage.jpg';
 ---
 
 <section class="bg-slate-100 dark:bg-background-dark/50 py-24 md:py-40">
@@ -33,40 +33,19 @@ import approachImage from '../../assets/img/home-page-img-02.jpg';
 
       <!-- Content -->
       <div class="order-1 lg:order-2">
-        <span class="text-primary font-bold uppercase tracking-[0.3em] text-xs mb-6 block">Our Approach</span>
+        <span class="text-primary font-bold uppercase tracking-[0.3em] text-xs mb-6 block">Mais aussi...</span>
         {/* This is h1 - main page heading */}
         <h1 class="text-5xl md:text-7xl font-black tracking-tighter uppercase leading-[0.9] mb-10">
-          Simplicity <br />Is Power
+          Créations <br />sur demande
         </h1>
         <div class="space-y-8 max-w-lg">
           <p class="text-lg md:text-xl text-slate-700 dark:text-slate-300 leading-relaxed font-light">
-            We believe in the power of simplicity. Every line has a purpose; every void tells a story. Our philosophy is rooted in the balance of tectonic weight and ethereal lightness.
+            Je peux réaliser des créations sur commande et adapter les couleurs selon vos envies.</br> Les crochets d’oreilles sont disponibles en argent 925 ou en métal hypoallergénique.
           </p>
           
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-6">
-            <div class="flex flex-col gap-2">
-              <Icon name="building-arch" size={32} class="text-primary" />
-              {/* FIXED: Changed from h4 to p with heading role or keep as span */}
-              <span class="font-bold uppercase tracking-widest text-sm text-slate-700 dark:text-slate-200 block">
-                Precision
-              </span>
-              <p class="text-xs text-slate-600 dark:text-slate-300 uppercase tracking-wider">
-                Exactness in every structural detail.
-              </p>
-            </div>
-            <div class="flex flex-col gap-2">
-              <Icon name="heart" size={32} class="text-primary" />
-              {/* FIXED: Changed from h4 to p with heading role or keep as span */}
-              <span class="font-bold uppercase tracking-widest text-sm text-slate-700 dark:text-slate-200 block">
-                Soul
-              </span>
-              <p class="text-xs text-slate-600 dark:text-slate-300 uppercase tracking-wider">
-                Creating spaces that evoke emotion.
-              </p>
-            </div>
+          
           </div>
-
-<Button href="/about" variant="outline" size="lg">Discover Our Story</Button>        </div>
+       </div>
       </div>
     </div>
   </Container>
